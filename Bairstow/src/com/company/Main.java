@@ -174,7 +174,7 @@ public class Main {
 			int g = i+1;
 			System.out.println("Iteration: " + g);
 			//Printing of R, S, and Error
-			System.out.println("r: " + r + " s: " + s + " error: " + error);
+			System.out.println("r: " + df.format(r) + " s: " + df.format(s) + " error: " + error);
 
 			for (int c = 0; c < z; c++){
 				System.out.print("A" + c + " = " + df.format(constant1[c]) + " ");
